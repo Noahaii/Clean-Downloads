@@ -3,10 +3,10 @@ import shutil
 import time
 
 # GLOBALS
-DEST_FOLDERS = {"Desktop": "C:/Users/ninoc/Desktop", "Documents": "C:/Users/ninoc/Documents", "Music": "C:/Users/ninoc/Music",
-                 "Pictures": "C:/Users/ninoc/Pictures", "Videos": "C:/Users/ninoc/Videos"}
+# fill in paramters for DEST_FOLDERS and downloads -> for your own system
+DEST_FOLDERS = {{insert-name-of-folder}: {Path-to-target-folder}}
 
-downloads = "C:/Users/ninoc/Downloads"
+downloads = {path-to-downloads-folder}
 
 ext_music = ('.mp3', '.m4a', '.flac', '.wav', '.wma', '.aac')
 ext_videos = ('.mp4', '.mov', '.wmv', '.avi', 'm4v')
